@@ -63,36 +63,6 @@
             "connections" : [ {
               "backPressureDataSizeThreshold" : "1 GB",
               "backPressureObjectThreshold" : 10000,
-              "bends" : [ ],
-              "componentType" : "CONNECTION",
-              "destination" : {
-                "comments" : "",
-                "groupId" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-                "id" : "13309a2f-d99d-361f-a911-9d7689d1b68b",
-                "name" : "Integration_output",
-                "type" : "OUTPUT_PORT"
-              },
-              "flowFileExpiration" : "0 sec",
-              "groupIdentifier" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-              "identifier" : "78753637-7d8c-31be-a0e1-78b20722356c",
-              "labelIndex" : 1,
-              "loadBalanceCompression" : "DO_NOT_COMPRESS",
-              "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-              "name" : "",
-              "partitioningAttribute" : "",
-              "prioritizers" : [ ],
-              "selectedRelationships" : [ "success" ],
-              "source" : {
-                "comments" : "",
-                "groupId" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-                "id" : "c515953d-859b-300a-a56d-c89ca2f04b2d",
-                "name" : "Insert_New_Integration_Document",
-                "type" : "PROCESSOR"
-              },
-              "zIndex" : 0
-            }, {
-              "backPressureDataSizeThreshold" : "1 GB",
-              "backPressureObjectThreshold" : 10000,
               "bends" : [ {
                 "x" : -72.0,
                 "y" : -400.0
@@ -451,39 +421,6 @@
               "backPressureDataSizeThreshold" : "1 GB",
               "backPressureObjectThreshold" : 10000,
               "bends" : [ {
-                "x" : -376.0,
-                "y" : 8.0
-              } ],
-              "componentType" : "CONNECTION",
-              "destination" : {
-                "comments" : "",
-                "groupId" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-                "id" : "0906c827-fd84-36c3-ba08-d327dc5127f7",
-                "name" : "LogMessage_Integration",
-                "type" : "PROCESSOR"
-              },
-              "flowFileExpiration" : "0 sec",
-              "groupIdentifier" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-              "identifier" : "45fee347-8735-30b4-8ea1-668b15bfe04e",
-              "labelIndex" : 1,
-              "loadBalanceCompression" : "DO_NOT_COMPRESS",
-              "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-              "name" : "",
-              "partitioningAttribute" : "",
-              "prioritizers" : [ ],
-              "selectedRelationships" : [ "failure" ],
-              "source" : {
-                "comments" : "",
-                "groupId" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-                "id" : "c515953d-859b-300a-a56d-c89ca2f04b2d",
-                "name" : "Insert_New_Integration_Document",
-                "type" : "PROCESSOR"
-              },
-              "zIndex" : 0
-            }, {
-              "backPressureDataSizeThreshold" : "1 GB",
-              "backPressureObjectThreshold" : 10000,
-              "bends" : [ {
                 "x" : 528.0,
                 "y" : -608.0
               } ],
@@ -551,39 +488,6 @@
               "backPressureObjectThreshold" : 10000,
               "bends" : [ {
                 "x" : 528.0,
-                "y" : -64.0
-              } ],
-              "componentType" : "CONNECTION",
-              "destination" : {
-                "comments" : "",
-                "groupId" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-                "id" : "c515953d-859b-300a-a56d-c89ca2f04b2d",
-                "name" : "Insert_New_Integration_Document",
-                "type" : "PROCESSOR"
-              },
-              "flowFileExpiration" : "0 sec",
-              "groupIdentifier" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-              "identifier" : "e45318a1-2dbe-3cac-917a-bed6124beb50",
-              "labelIndex" : 1,
-              "loadBalanceCompression" : "DO_NOT_COMPRESS",
-              "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-              "name" : "",
-              "partitioningAttribute" : "",
-              "prioritizers" : [ ],
-              "selectedRelationships" : [ "success" ],
-              "source" : {
-                "comments" : "",
-                "groupId" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-                "id" : "d8538054-4927-30f3-9933-ca5b007cdda8",
-                "name" : "Generate_Integration_Document",
-                "type" : "PROCESSOR"
-              },
-              "zIndex" : 0
-            }, {
-              "backPressureDataSizeThreshold" : "1 GB",
-              "backPressureObjectThreshold" : 10000,
-              "bends" : [ {
-                "x" : 528.0,
                 "y" : -880.0
               } ],
               "componentType" : "CONNECTION",
@@ -625,24 +529,11 @@
             "inputPorts" : [ ],
             "labels" : [ ],
             "name" : "Integration_Creation",
-            "outputPorts" : [ {
-              "allowRemoteAccess" : false,
-              "comments" : "",
-              "componentType" : "OUTPUT_PORT",
-              "concurrentlySchedulableTaskCount" : 1,
-              "groupIdentifier" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-              "identifier" : "13309a2f-d99d-361f-a911-9d7689d1b68b",
-              "name" : "Integration_output",
-              "position" : {
-                "x" : 656.0,
-                "y" : -8.0
-              },
-              "type" : "OUTPUT_PORT"
-            } ],
+            "outputPorts" : [ ],
             "parameterContextName" : "Twitter_Integration",
             "position" : {
-              "x" : -800.0,
-              "y" : -632.0
+              "x" : -344.0,
+              "y" : -608.0
             },
             "processGroups" : [ ],
             "processors" : [ {
@@ -1207,124 +1098,6 @@
               "schedulingStrategy" : "TIMER_DRIVEN",
               "style" : { },
               "type" : "org.apache.nifi.processors.standard.EvaluateJsonPath",
-              "yieldDuration" : "1 sec"
-            }, {
-              "autoTerminatedRelationships" : [ ],
-              "bulletinLevel" : "WARN",
-              "bundle" : {
-                "artifact" : "nifi-mongodb-nar",
-                "group" : "org.apache.nifi",
-                "version" : "1.14.0"
-              },
-              "comments" : "",
-              "componentType" : "PROCESSOR",
-              "concurrentlySchedulableTaskCount" : 1,
-              "executionNode" : "ALL",
-              "groupIdentifier" : "8e1222bb-3aa4-337b-9221-1b342a504a65",
-              "identifier" : "c515953d-859b-300a-a56d-c89ca2f04b2d",
-              "name" : "Insert_New_Integration_Document",
-              "penaltyDuration" : "30 sec",
-              "position" : {
-                "x" : 48.0,
-                "y" : -56.0
-              },
-              "properties" : {
-                "mongo-client-service" : "5abe6579-c586-3639-9e69-f9de47bcc364",
-                "Upsert" : "true",
-                "ssl-client-auth" : "NONE",
-                "Mode" : "insert",
-                "Mongo Database Name" : "TwitterDB_Stage",
-                "Mongo Collection Name" : "Landing_To_Staging_Integration",
-                "put-mongo-update-mode" : "doc",
-                "Write Concern" : "ACKNOWLEDGED",
-                "Character Set" : "UTF-8"
-              },
-              "propertyDescriptors" : {
-                "mongo-client-service" : {
-                  "displayName" : "Client Service",
-                  "identifiesControllerService" : true,
-                  "name" : "mongo-client-service",
-                  "sensitive" : false
-                },
-                "Upsert" : {
-                  "displayName" : "Upsert",
-                  "identifiesControllerService" : false,
-                  "name" : "Upsert",
-                  "sensitive" : false
-                },
-                "ssl-context-service" : {
-                  "displayName" : "SSL Context Service",
-                  "identifiesControllerService" : true,
-                  "name" : "ssl-context-service",
-                  "sensitive" : false
-                },
-                "ssl-client-auth" : {
-                  "displayName" : "Client Auth",
-                  "identifiesControllerService" : false,
-                  "name" : "ssl-client-auth",
-                  "sensitive" : false
-                },
-                "Mode" : {
-                  "displayName" : "Mode",
-                  "identifiesControllerService" : false,
-                  "name" : "Mode",
-                  "sensitive" : false
-                },
-                "Mongo Database Name" : {
-                  "displayName" : "Mongo Database Name",
-                  "identifiesControllerService" : false,
-                  "name" : "Mongo Database Name",
-                  "sensitive" : false
-                },
-                "Mongo URI" : {
-                  "displayName" : "Mongo URI",
-                  "identifiesControllerService" : false,
-                  "name" : "Mongo URI",
-                  "sensitive" : false
-                },
-                "Update Query Key" : {
-                  "displayName" : "Update Query Key",
-                  "identifiesControllerService" : false,
-                  "name" : "Update Query Key",
-                  "sensitive" : false
-                },
-                "Mongo Collection Name" : {
-                  "displayName" : "Mongo Collection Name",
-                  "identifiesControllerService" : false,
-                  "name" : "Mongo Collection Name",
-                  "sensitive" : false
-                },
-                "putmongo-update-query" : {
-                  "displayName" : "Update Query",
-                  "identifiesControllerService" : false,
-                  "name" : "putmongo-update-query",
-                  "sensitive" : false
-                },
-                "put-mongo-update-mode" : {
-                  "displayName" : "Update Mode",
-                  "identifiesControllerService" : false,
-                  "name" : "put-mongo-update-mode",
-                  "sensitive" : false
-                },
-                "Write Concern" : {
-                  "displayName" : "Write Concern",
-                  "identifiesControllerService" : false,
-                  "name" : "Write Concern",
-                  "sensitive" : false
-                },
-                "Character Set" : {
-                  "displayName" : "Character Set",
-                  "identifiesControllerService" : false,
-                  "name" : "Character Set",
-                  "sensitive" : false
-                }
-              },
-              "runDurationMillis" : 0,
-              "scheduledState" : "ENABLED",
-              "schedulingPeriod" : "0 sec",
-              "schedulingStrategy" : "TIMER_DRIVEN",
-              "style" : { },
-              "type" : "org.apache.nifi.processors.mongodb.PutMongo",
               "yieldDuration" : "1 sec"
             }, {
               "autoTerminatedRelationships" : [ ],
